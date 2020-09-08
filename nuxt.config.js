@@ -61,6 +61,9 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+  auth: {
+    home: '/main',
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

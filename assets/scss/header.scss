@@ -1,0 +1,69 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+
+  &-body {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-logo {
+      display: flex;
+      align-items: center;
+
+      &-title {
+        margin: 0 0 0 18px;
+      }
+    }
+
+    &-title {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      color: #677B8F;
+      margin: 0;
+    }
+
+    &-night_mode {
+      display: flex;
+      align-items: center;
+
+      &-title {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-left: 18px;
+      }
+    }
+
+    &-alarms {
+      &-image {
+        &-notif {
+          margin-left: 29px;
+        }
+      }
+    }
+
+    &-user {
+      display: flex;
+      align-items: center;
+
+      &-name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        color: #012345;
+        margin: 0;
+      }
+
+      &-avatar {
+        border-radius: 50px;
+        margin-left: 16px;
+      }
+    }
+  }
+
+}
