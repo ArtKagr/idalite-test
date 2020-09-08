@@ -72,12 +72,14 @@
           align-content: space-between;
 
           &-title {
+            width: 60%;
             font-weight: bold;
             font-size: 16px;
             margin: 0;
           }
 
           &-subtitle {
+            width: 60%;
             font-weight: 300;
             font-size: 12px;
             color: #677B8F;
@@ -85,6 +87,7 @@
           }
 
           &-price {
+            width: 60%;
             font-style: normal;
             font-weight: bold;
             font-size: 14px;
